@@ -1,0 +1,7 @@
+.el-progress-bar {
+  padding-right: 0 !important;
+}
+
+.el-progress-bar__inner {
+  background-color: tomato !important;
+}

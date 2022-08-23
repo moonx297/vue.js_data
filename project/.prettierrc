@@ -1,0 +1,8 @@
+{
+    "semi" : false, //semi 콜론 안쓸거다
+    "bracketSpacing": true, 
+    "singleQuote": true,
+    "useTabs": false,   
+    "trailingComma": "none",
+    "printWidth": 80    //한줄에 최대 80으로 하겠다.
+}
