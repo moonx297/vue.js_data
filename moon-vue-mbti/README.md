@@ -1,4 +1,4 @@
-# vue-mbti-practicing
+# moon-vue-mbti
 
 ## Project setup
 ```

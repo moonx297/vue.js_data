@@ -8,14 +8,17 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
     <style>
       .kakao_ad_area {
-        padding: 16px;
-        box-sizing: border-box;
+        /* 카카오톡 광고 삽입 */
+        padding: 30px; /*4면이 모두 16px인 패딩 지정*/
+        box-sizing: border-box; /* border-box: 테두리까지 포함해서 너빗값 지정
+                                or content-box: 콘텐츠 영역만 너빗값 지정. 기본값*/
       }
     </style>
   </head>
 
   <body>
-    <noscript>
+    <noscript
+      ><!-- 스크립트가 실행되지 않는 웹브라우저에서 출력되게 하는 태그 -->
       <strong
         >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
         properly without JavaScript enabled. Please enable it to
@@ -25,7 +28,8 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
 
-    <!-- 카카오 애드핏 가로배너 -->
+    <!-- 카카오 애드핏 가로 배너 -->
+    <!-- ins : insert 반응형 광고 코드-->
     <ins
       class="kakao_ad_area"
       style="display: none"

@@ -1,0 +1,40 @@
+button {
+  /*태그명*/
+  width: 100%;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  background: inherit;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button-grey {
+  /*클래스명*/
+  background-color: #f4f4f4;
+  border: 1px solid #e5e5e5;
+}
+
+.button-pink {
+  background-color: rgb(255, 232, 228);
+  border: 1px solid rgb(255, 206, 197);
+}
+.button-main {
+  background-color: tomato;
+  color: #fff;
+  border: none;
+}
+.button-outline {
+  background-color: rgb(255, 232, 228);
+  color: tomato;
+  border: 1px solid rgb(255, 206, 197);
+}
+.button-text {
+  padding: 5px 0;
+  display: inline-block;
+  width: 80%;
+}

@@ -1,0 +1,21 @@
+.badge {
+  padding: 3px 9px;
+  font-size: 15px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  float: left;
+  margin: 2px 0;
+  background-color: tomato;
+  color: #fff;
+}
+
+/*
+선택자 {
+    스타일 속성1 : 값;
+    스타일 속성2 : 값;
+    스타일 속성3 : 값;
+}
+*/
